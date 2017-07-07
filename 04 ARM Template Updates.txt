@@ -1,0 +1,4 @@
+VM Size changed from A1 to "Standard_A1_v2" ------ reduces cost from £33pm to £22pm and you get 2GB instead of just 1.5GB
+
+PowerShell DSC Extension added
+ > it installs IIS Server Role

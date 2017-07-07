@@ -1,0 +1,72 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "VMadminUsername": {
+      "value": "coopwintel"
+    },
+    "existingVNETName": {
+      "value": "vnet-eun-azurejura"
+    },
+    "existingSubnetName": {
+      "value": "10.0.30.0"
+    },
+    "domainToJoin": {
+      "value": "jura.local"
+    },
+    "domainUserName": {
+      "value": "joe.brooker"
+    },
+    "storageAccountName": {
+      "value": "saeunjuracorporation"
+    },
+    "virtualMachineName": {
+      "value": "Jura-v-IIS-001"
+    },
+    "virtualMachineSize": {
+      "value": "Standard_A1_v2"
+    },
+    //"virtualNetworkID": {
+    //  "value": "/subscriptions/940a02af-655a-4e0d-8ac5-7d59704dad09/resourceGroups/juracorporation/providers/Microsoft.Network/virtualNetworks/vnet-eun-azurejura"
+    //},
+    //"authoriser": {
+    //  "value": "Joe Brooker"
+    //},
+    //"bFunction": {
+    //  "value": "Infrastructure"
+    //},
+    //"bUnit": {
+    //  "value": "{bunit}"
+    //},
+    //"cc": {
+    //  "value": "Shared Services"
+    //},
+    //"cer": {
+    //  "value": "77840"
+    //},
+    //"environment": {
+    //  "value": "{environment}"
+    //},
+    //"managedBy": {
+    //  "value": "Server Department"
+    //},
+    //"nlc": {
+    //  "value": "{nlc}"
+    //},
+    //"projectNum": {
+    //  "value": "{projectnum}"
+    //},
+    //"reqDate": {
+    //  "value": "{reqDate}"
+    //},
+    //"requestor": {
+    //  "value": "{requestor}"
+    //},
+    //"serviceName": {
+    //  "value": "{servicename}"
+    //}
+    //"_artifactsLocation": {
+    //    "value": "https://ssscorchprodeunst01.blob.core.windows.net"
+    //}
+  }
+}
